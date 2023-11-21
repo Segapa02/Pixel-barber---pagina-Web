@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO - PIXEL</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-registro.css">
+    <link rel="stylesheet" href="validacion-registro.js">
+</head>
+<body>
+    <div class="formulario">
+        <form>
+            <h1>REGISTRATE</h1>
+            <div class="nombre">
+                <input type="text" id="nombres" class="input-padron" >
+                <label class="label1" for="nombres">Nombres:</label>
+            </div>  
+            <div class="nombre">
+                <input type="text" id="telefono" class="input-padron"  >
+                <label for="telefono">Teléfono:</label>  
+            </div>  
+            <div class="nombre">     
+                <input type="text" id="correo" class="input-padron" >
+                <label for="correo">Email:</label>
+            </div>  
+            <div class="nombre">     
+                <input type="password" id="password" class="input-padron" >
+                <label for="correo">Contraseña:</label>
+            </div>  
+            <input type="submit" value="Registrarse" class="registro" onclick="validarDatos()"> 
+            <div class="iniciar">
+                <label>¿Ya eres miembro? <a href="login.html">Incia sesión</a></label>
+            </div>
+        </form>
+    </div>
+
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+  </style>
+</html>
