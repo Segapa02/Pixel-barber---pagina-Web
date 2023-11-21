@@ -1,0 +1,58 @@
+
+body{
+background-color: white;
+font-family: "Nunito Sans", sans-serif;
+}
+
+.titulo-principal{
+    padding-left: 30px;
+}
+
+
+img{
+    width: 100%;
+}
+
+.principal{
+    padding: 20px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    
+}
+
+
+em strong{
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.Diferenciales{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align:  top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.items{
+    font-style: italic;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}

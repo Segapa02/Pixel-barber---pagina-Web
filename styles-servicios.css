@@ -1,0 +1,120 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #fff;
+}
+
+.titulo-ser{
+    position: absolute;
+    margin-bottom: 400px;
+}
+
+.titulo-ser{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.card1{
+    background-image: url(imagenes1/barba1.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 0;
+    transition: 300ms ease-in-out;  
+    overflow: hidden;
+}
+
+.card2{
+    background-image: url(imagenes1/cabello1.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 0;
+    transition: 300ms ease-in-out;
+    overflow: hidden;
+}
+
+.card3{
+    background-image: url(imagenes1/cabello+barba1.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 0;
+    transition: 300ms ease-in-out;
+    overflow: hidden;
+    opacity: 1;
+    transition: .5s;
+}
+
+
+
+
+.content{
+    text-align: center;
+    padding: 150px 0 0 0;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.5s;
+    margin: -20px;
+}
+
+.content h2, p {
+    color: #fff
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+.card1:hover .content{
+    opacity: 1;
+    font-size: 15px;
+}
+
+.card2:hover .content{
+    opacity: 1;
+    font-size: 15px;
+}
+
+.card3:hover .content{
+    opacity: 1;
+    font-size:  15px;
+}
+
+.card1:hover {
+    
+    scale: 1.4;
+}
+
+.card2:hover {
+    scale: 1.4;
+}
+
+.card3:hover {
+
+    scale: 1.7;
+}
+
+
+
+
+

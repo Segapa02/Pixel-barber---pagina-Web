@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-login.css">
+    <title>LOGIN - PIXEL</title>
+</head>
+<body>
+
+    <header>
+        <div class="caja" >
+            <h1> <img " class="img-logo" src="imagenes/logo.png" alt="Logo de la barberia pixel">  </h1>
+                <nav>
+                    <ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="servicios.html">Productos</a></li>
+                        <li> <a href="contacto.html">Contacto</a></li>
+                        <li> <a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+        </div> 
+
+    </header>
+
+    <main>
+        <div class="formulario">
+            <h1 class="h12">INICIO DE SESIÓN</h1>
+            <form id="loginForm" onsubmit="return validarCorreo()">
+                <div class="username">
+                    <input type="email" required id="email">
+                    <label>Email:</label>
+                </div>
+                <div class="username">
+                    <input type="password" required id="password">
+                    <label>Contraseña:</label>
+                </div>
+                <div class="recordar">
+                    ¿Olvidó su Contraseña?
+                </div>
+                <input type="submit" value="Iniciar" onclick="validarCorreo()">
+                <div class="registro">
+                    ¿Aún no estás <a href="#">registrado?</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <img src="imagenes/logo-blanco.png">
+
+            <div class="logos">
+                <a href="https://www.facebook.com/" target="_blank"> <img class="logo-foot" src="imagenes Redes/facebook-large.png"></a>
+                <a href="https://www.instagram.com/" target="_blank"> <img class="logo-foot" src="imagenes Redes/instagram.png"> </a>
+                <a href="https://twitter.com/?" target="_blank"> <img class="logo-foot" src="imagenes Redes/twitter-large.png"> </a>
+                <a href="https://mail.google.com/" target="_blank"> <img class="logo-foot" src="imagenes Redes/mail_preview.png"></a>
+                <a href="https://www.youtube.com/" target="_blank"> <img class="logo-foot" src="imagenes Redes/youtube-large.png"></a>
+            </div>
+            <p class="copyright">&copy Copyright Barberia Pixel - 2023</p>
+    </footer>
+    
+</body>
+<link rel="stylesheet" href="validacion.js">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+  </style>
+</html>
